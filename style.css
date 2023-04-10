@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(121, 39, 39);
+	
+
+}
+
+.container {
+	
+	width: 90%;
+	max-width: 800px;
+	margin: 50px auto;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	margin-top: 300px;
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+
+form {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	font-size: 50px;
+	
+}
+
+form input[type="text"] {
+	flex: 1;
+	height: 30px;
+	font-size: 16px;
+	padding: 0 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	background-color: wheat;
+	height: 5vh;
+}
+
+form button {
+	height: 30px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 0 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	border-radius: 34px;
+	font-size: large;
+	height: 5vh;
+}
+
+#task-list {
+	display: flex;
+	flex-direction: column;
+	font-size: 200px;
+	
+}
+
+.task-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	
+}
+
+.task-item label {
+	flex: 1;
+	font-size: 16px;
+	
+}
+
+.task-item input[type="checkbox"] {
+	margin-right: 10px;
+	
+}
+
+.delete-btn {
+	background-color: #f44336;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	border-radius: 34px;
+	font-size: large;
+}
+
+#filter-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	border-radius: 34px;
+	font-size: large;
+}
+
+#filter-buttons button {
+	height: 30px;
+	background-color: #ddd;
+	border: none;
+	padding: 0 20px;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 34px;
+	font-size: large;
+}
+
+#filter-buttons button.active {
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 34px;
+	font-size: large;
+}
